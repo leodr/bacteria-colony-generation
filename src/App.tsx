@@ -43,7 +43,9 @@ export function App() {
     <div>
       <Settings settings={settings} setSettings={setSettings} />
       <Canvas settings={settings} canvasRef={canvasRef} />
-      <button onClick={handleDownload}>Download Image</button>
+      <div>
+        <button onClick={handleDownload}>Download Image</button>
+      </div>
     </div>
   );
 }
